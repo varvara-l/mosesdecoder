@@ -75,6 +75,8 @@
 #include "moses/Syntax/InputWeightFF.h"
 #include "moses/Syntax/RuleTableFF.h"
 
+#include "moses/FF/WordQEFeature.h"
+
 #include "moses/FF/EditOps.h"
 #include "moses/FF/CorrectionPattern.h"
 
@@ -303,6 +305,8 @@ FeatureRegistry::FeatureRegistry()
   MOSES_FNAME(InMemoryPerSentenceOnDemandLM);
   MOSES_FNAME(SkeletonTranslationOptionListFeature);
   MOSES_FNAME(SkeletonPT);
+
+  MOSES_FNAME(WordQEFeature);
 
   MOSES_FNAME(EditOps);
   MOSES_FNAME(CorrectionPattern);
